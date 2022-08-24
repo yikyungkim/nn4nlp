@@ -7,7 +7,7 @@ import math
 import os
 import numpy as np
 
-# --
+
 # which *py to use??
 _WHICH_XP = os.environ.get("WHICH_XP", "np")
 if _WHICH_XP.lower() in ["cupy", "cp"]:
